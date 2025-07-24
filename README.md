@@ -1,24 +1,20 @@
 # SOP: Gunicorn 
 
 
-> This SOP is a simple guide for setting up and using Gunicorn, a Python WSGI HTTP Server, on Ubuntu.
-
-
-
 ---
 ## Author Information
 
-| Created by      | Created on  | Version | Last updated ON | pre Reviewer | 
+| Created by      | Created on  | Version | Last updated | Pre-Reviewer | 
 |-----------------|------------|---------|-----------------|--------------| 
-| Sunny kumar | 22-07-2025 | V 1.0   | 22-07-2025      | Aman Raj       | 
+| Sunny Kumar | 22-07-2025 | V 1.0   | 22-07-2025      | Aman Raj       | 
 
 ---
 
 ## Table of Contents
-- [Purpose](#1-purpose)
-- [Scope](#2-scope)
-- [Prerequisites](#3-prerequisites)
-- [Procedure](#4-procedure)
+- [1. Purpose](#1-purpose)
+- [2. Scope](#2-scope)
+- [3. Prerequisites](#3-prerequisites)
+- [4. Procedure](#4-procedure)
   - [4.1. Introduction](#41-introduction)
   - [4.2. Update system packages](#42-Update-system-packages)
   - [4.3. Install Python3 and pip](#43-Install-Python3-and-pip)
@@ -26,10 +22,10 @@
   - [4.5. Create a virtual environment](#45-Create-a-virtual-environment)
   - [4.6. Install Gunicorn inside the virtual environment](#46-Install-Gunicorn-inside-the-virtual-environment)
   - [4.7. Verify Gunicorn installation](#47-Verify-Gunicorn-installation)
-- [Troubleshooting](#troubleshooting)
-- [Conclusion](#conclusion)
-- [References](#references)
-- [Contact Information](#contact-information)
+- [5. Troubleshooting](#troubleshooting)
+- [6. Conclusion](#conclusion)
+- [7. Contact Information](#contact-information)
+- [8. References](#references)
 
 ## 1. Purpose
 
@@ -64,8 +60,6 @@ Gunicorn is a lightweight, production-ready WSGI HTTP server for running Python 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
-<img width="1044" height="314" alt="image" src="https://github.com/user-attachments/assets/51c8bc30-d580-4eee-b027-894c70c20824" />
-
 
 ### 4.3. Install Python3 and pip
 
@@ -112,7 +106,7 @@ gunicorn --version
 
 ---
 
-## Troubleshooting
+## 5. Troubleshooting
 
 | **Issue**                                          | **Possible Cause**            | **Solution**                                                                 |
 |----------------------------------------------------|------------------------------|------------------------------------------------------------------------------|
@@ -125,27 +119,27 @@ gunicorn --version
 ---
 
 
-## Conclusion
+## 6. Conclusion
 
 By following this SOP, you’ve successfully installed Gunicorn on an Ubuntu system and resolved common installation-related issues. Gunicorn provides a robust, efficient way to serve Python web applications in production. 
 
 ---
 
-## References
+## 7. Contact Information
+
+| Name             | Email                                         |
+|------------------|-----------------------------------------------|
+| Sunny Kumar  | sunny.kumar.snaatak@mygurukulam.co        |
+
+---
+## 8. References
 
 | Links                                                                                     | Descriptions                           |
 |-------------------------------------------------------------------------------------------|----------------------------------------|
 | [Python Packaging Guide (Official)](https://packaging.python.org/en/latest/) | Install & best practices      |
 | [W3Schools - Python venv](https://www.w3schools.com/python/python_virtualenv.asp) | Simple explanation   |
-| [Gunicorn](https://docs.gunicorn.org/en/latest/install.html) |How to install gunicorn|
+| [Gunicorn](https://docs.gunicorn.org/en/latest/install.html) |How to install Gunicorn|
 
 
----
-
-## Contact Information
-
-| Name             | Email                                         |
-|------------------|-----------------------------------------------|
-| Sunny kumar  | sunny.kumar.snaatak@mygurukulam.co        |
 
 ---
