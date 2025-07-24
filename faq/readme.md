@@ -1,0 +1,12 @@
+| **Question**                                                              | **Answer**                                                                                                                         |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Q1. What is Gunicorn?**                                                 | Gunicorn (Green Unicorn) is a Python WSGI HTTP server used to run Python web apps in production.                                   |
+| **Q2. Which Python web frameworks work with Gunicorn?**                   | Gunicorn supports popular frameworks like Flask, Django, and FastAPI.                                                              |
+| **Q3. How do I install Gunicorn?**                                        | First activate your virtual environment, then run `pip install gunicorn`.                                                          |
+| **Q4. How do I verify Gunicorn installation?**                            | Use the command `gunicorn --version`.                                                                                              |
+| **Q5. Gunicorn is not found after install—what should I do?**             | Make sure your virtual environment is activated using `source venv/bin/activate`.                                                  |
+| **Q6. Can I install Gunicorn globally?**                                  | Yes, but it's recommended to install it in a virtual environment. If global install is required, use `sudo pip3 install gunicorn`. |
+| **Q7. What is a virtual environment and why is it used here?**            | A virtual environment is an isolated Python environment used to manage dependencies without affecting the global Python setup.     |
+| **Q8. How do I activate a virtual environment?**                          | Use `source venv/bin/activate` inside your project directory.                                                                      |
+| **Q9. I get network errors while installing Gunicorn. What should I do?** | Try upgrading pip using `pip install --upgrade pip` and check your internet connection.                                            |
+| **Q10. Do I need root privileges to install Gunicorn?**                   | Not if you're using a virtual environment. For global installation, root (`sudo`) may be required.                                 |
